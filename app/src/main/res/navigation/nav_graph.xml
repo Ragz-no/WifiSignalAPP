@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inputFragment">
+
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.wifimap.ui.fragments.InputFragment"
+        android:label="Input"
+        tools:layout="@layout/fragment_input" />
+
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.wifimap.ui.fragments.ScanFragment"
+        android:label="Scan"
+        tools:layout="@layout/fragment_scan" />
+
+    <fragment
+        android:id="@+id/modelFragment"
+        android:name="com.wifimap.ui.fragments.ModelFragment"
+        android:label="Model"
+        tools:layout="@layout/fragment_model" />
+
+    <fragment
+        android:id="@+id/recommendationsFragment"
+        android:name="com.wifimap.ui.fragments.RecommendationsFragment"
+        android:label="Recommendations"
+        tools:layout="@layout/fragment_recommendations" />
+
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="com.wifimap.ui.fragments.VerificationFragment"
+        android:label="Verification"
+        tools:layout="@layout/fragment_verification" />
+
+</navigation>

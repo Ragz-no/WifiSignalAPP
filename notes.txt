@@ -1,0 +1,10 @@
+How the app works (core features)
+Input: user draws or imports floorplan or uses quick room-by-room selector.
+
+Scan: guided walk test that samples RSSI, band (2.4/5 GHz), and throughput per location.
+
+Model: combine empirical samples with propagation heuristics (center placement, elevation, antenna pattern) to compute a signal heatmap and rank candidate locations. Central elevated placement and vertical antenna orientation improve horizontal coverage. 
+
+Recommendations: show top 3 spots, expected RSSI improvements, and short actions (raise router, move 2–3 m, rotate antennas). Moving a router from a corner to a central elevated shelf often doubles usable coverage. 
+
+Verification: re‑run quick test and show delta map.

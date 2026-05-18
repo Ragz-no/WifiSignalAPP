@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi Signal Map</string>
+    <string name="input_title">Floorplan Setup</string>
+    <string name="scan_title">WiFi Scan</string>
+    <string name="model_title">Signal Analysis</string>
+    <string name="recommendations_title">Router Placement Recommendations</string>
+    <string name="verification_title">Verification</string>
+
+    <!-- Input Screen -->
+    <string name="draw_floorplan">Draw Floorplan</string>
+    <string name="import_floorplan">Import Floorplan</string>
+    <string name="quick_room_selector">Quick Room Selector</string>
+
+    <!-- Scan Screen -->
+    <string name="start_scan">Start Guided Walk</string>
+    <string name="current_rssi">Current RSSI: %s dBm</string>
+    <string name="band_info">Band: %s GHz</string>
+    <string name="throughput">Throughput: %s Mbps</string>
+
+    <!-- Recommendations -->
+    <string name="top_3_spots">Top 3 Placement Spots</string>
+    <string name="rssi_improvement">RSSI Improvement: +%s dBm</string>
+    <string name="coverage_increase">Coverage increase: %s%%</string>
+
+    <!-- Actions -->
+    <string name="raise_router">Raise router 1-2m elevation</string>
+    <string name="move_router">Move 2-3 meters to center</string>
+    <string name="rotate_antennas">Rotate antennas vertically</string>
+
+    <!-- Verification -->
+    <string name="re_run_test">Re-run Quick Test</string>
+    <string name="delta_map">Delta Map (Before/After)</string>
+</resources>
